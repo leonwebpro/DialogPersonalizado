@@ -4,13 +4,13 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends Activity {
-    //Probando commits
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,9 @@ public class MainActivity extends Activity {
                 showLoginDialog();
             }
         });
+
+        //Probando commits
+        Log.d("git","prueba de commit");
 
     }
     private void showLoginDialog() {
