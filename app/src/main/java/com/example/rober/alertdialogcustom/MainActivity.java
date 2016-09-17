@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,9 +22,6 @@ public class MainActivity extends Activity {
                 showLoginDialog();
             }
         });
-
-        //Probando commits
-        Log.d("git","prueba de commit");
 
     }
     private void showLoginDialog() {
